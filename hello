@@ -8,6 +8,7 @@ public class Main {
         while(left<=right){
             /*中间位置：两边界元素之和/2向下取整*/
             mid=(left+right)/2;
+            mid=mid
             /*arr[mid]大于target，即要寻找的元素在左半边，所以需要设定右边界为mid-1，搜索左半边*/
             if(target<arr[mid]){
                 right=mid-1;
